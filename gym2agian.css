@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+    background: linear-gradient(90deg,
+    rgba(2, 0, 36, 0.411) 0%,
+     rgba(0, 0, 0, 0.856) 0%,
+      rgba(0, 0, 0, 0.74) 35%
+      , rgba(205, 207, 166, 0.041) 43%,
+       rgba(0, 0, 0, 0.815) 55%,
+        rgb(0, 0, 0) 86%,
+        rgba(13, 13, 16, 0.5) 100%,
+         rgba(67, 66, 82, 0.26) 100%) , url(./img/gym.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+/* mainer-header */
+.navbar {
+  
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px ;
+    
+}
+.nav-box {
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+ul  {
+    list-style: none;
+    
+    
+
+}
+a {
+    text-decoration: none;
+    
+    color: 	rgb(255, 255, 255);
+}
+.wrap {
+    width: 80%;
+    margin: auto;
+}
+.logo {
+    width: 65px;
+    
+    align-items: center;
+    
+}
+.item  {
+    display: inline-block;
+    margin-right: 27px;
+    font-size: 26px;
+    margin-top: 15px;
+    align-items: center;
+   
+  
+}
+.btn button {
+    border: none;
+    border-radius: 6px;
+    padding: 5px 9px;
+    background-color: 	rgb(144, 217, 232);
+    font-size: 20px;
+    text-decoration: none;
+    color:  	rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+a:hover {
+  color: 	rgb(73, 73, 73);
+}
+.main-header {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+.main-items {
+    font-size: 67px;
+}
+.item2 {
+    font-weight: bolder;
+}
+.item3 {
+    font-size:20px;
+    margin-top: 15px;
+ word-spacing: 2px;
+}
+.main-btn {
+    font-size: 15px;
+    background-color: 	rgb(69, 163, 66);
+    padding: 10px 25px;
+    border-radius: 25px;
+    letter-spacing: 0.5px;
+}
+/* footer */
+.wrap2{
+    width: 80%;
+    margin: auto;
+    
+    
+}
+.footer-section {
+    background-color: #ffffff;
+    height: 100vh;
+    
+   
+    
+
+}
+.text-center {
+    text-align: center;
+}
+.footer-h1 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Roboto Slab', serif;
+
+}
+.footer-text {
+    color: rgb(197, 197, 197);
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+p{
+    font-family:  'Anton', sans-serif;
+    word-spacing: 3px;
+}
+
+
+
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding-top: 100px;
+   
+    
+}
+.footer-items {
+    padding-top: 70px;
+     word-spacing: 70px; 
+    color: rgb(197, 197, 197);
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+}
+.item101 {
+    border: solid  	rgb(69, 163, 66) ;
+    border-radius: 25px;
+    background-color: 	rgb(69, 163, 66);
+    color: white;
+    padding: 1px 25px;
+    
+}
+.item102:hover {
+    border: solid  	rgb(69, 163, 66) ;
+    border-radius: 25px;
+    background-color: 	rgb(69, 163, 66);
+    color: white;
+    padding: 1px 25px;
+}
+.item103:hover {
+    border: solid  	rgb(69, 163, 66) ;
+    border-radius: 25px;
+    background-color: 	rgb(69, 163, 66);
+    color: white;
+    padding: 1px 25px;
+}
+.item104:hover {
+    border: solid  	rgb(69, 163, 66) ;
+    border-radius: 25px;
+    background-color: 	rgb(69, 163, 66);
+    color: white;
+    padding: 1px 25px; 
+}
+.item105:hover {
+    border: solid  	rgb(69, 163, 66) ;
+    border-radius: 25px;
+    background-color: 	rgb(69, 163, 66);
+    color: white;
+    padding: 1px 25px;
+}
+.item106:hover {
+    border: solid  	rgb(69, 163, 66) ;
+    border-radius: 25px;
+    background-color: 	rgb(69, 163, 66);
+    color: white;
+    padding: 1px 25px;
+}
+.item107:hover {
+    border: solid  	rgb(69, 163, 66) ;
+    border-radius: 25px;
+    background-color: 	rgb(69, 163, 66);
+    color: white;
+    padding: 1px 25px;
+    
+}
+
+
+.boxes{
+    background-color: rgb(245, 245, 245);
+    margin-left: 15px;
+    height: 220px;
+    width: 240px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 60px ;
+  
+    
+
+}
+.footer-aktiv {
+     display: flex;
+    
+     height: 200px; 
+      
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; 
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.spanes {
+   
+    display: block;
+
+    
+    
+}
+.gym {
+    font-size: 30px;
+    /* padding-bottom: 30px; */
+    color:rgb(69, 163, 66);
+    /* position: relative;
+    left: 21px; */
+    
+}
+.joga {
+    font-size: 30px;
+    /* padding-bottom: 30px; */
+    color:rgb(69, 163, 66);
+    /* position: relative;
+    left: 35px; */
+    
+}
+.bik {
+    font-size: 30px;
+    /* padding-bottom: 30px; */
+    color:rgb(69, 163, 66);
+    /* position: relative;
+    left: 22px; */
+    
+}
+
+.boxing {
+    font-size: 30px;
+    /* padding-bottom: 30px; */
+    color:rgb(69, 163, 66);
+    /* position: relative;
+    left: 29px; */
+   
+    
+}
+.time {
+    font-size: 13px;
+    color: rgb(165, 164, 164);
+}
+.name {
+    font-size: 16px;
+    color: rgb(165, 164, 164);
+    
+    word-spacing: 2px;
+
+    
+}
+/* footer-2 */
+.footer-section2 {
+    height: 720px;
+  
+    background: rgb(34, 40, 49);
+    margin-top: 120px;
+    padding-top: 50px;
+  
+    
+    
+ 
+ 
+    
+}
+.wrap3 {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+     border-bottom: 3px rgb(43, 49, 58) solid ;  
+     border-radius: 1px;
+}
+.line {
+    margin: 0px 423px 0px 423px ;
+    margin-top: 20px;
+    
+}
+i {
+    padding-right: 10px;
+    color: rgb(156, 159, 164);
+}
+
+.box2-span1 {
+    padding-bottom: 10px;
+}
+.span-NY {
+  padding-left:26px;
+}
+.span-NY1 {
+    padding-left: 6px;
+    
+  }
+  .NYY{
+      padding-left: 4px;
+      
+  }
+.span-NY {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.span-NY33 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color :rgb(126, 130, 135);
+    font-family: 'Open Sans', sans-serif;
+}
+.span-NY34 {
+    color: rgb(126, 130, 135);
+    font-family: 'Open Sans', sans-serif;
+}
+.span-NY35 {
+    
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+ 
+
+  
+  
+.footer-box1 {
+    padding-right: 50px;
+   
+    
+}
+.footer-box2 {
+    padding-right: 50px;
+    color: rgb(88, 91, 95);
+}
+.footer2-h1 {
+    padding-bottom: 30px;
+    color: white;
+    word-spacing: 3px;
+    letter-spacing: 1.9px;
+    font-size: 28px;
+}
+.footer2-h2 {
+    padding-bottom: 30px;
+    color: white;
+    word-spacing: 3px;
+    letter-spacing: 1.9px;
+    font-size: 28px;
+}
+.footer2-h3 {
+    padding-bottom: 30px;
+    color: white;
+    word-spacing: 3px;
+    letter-spacing: 1.9px;
+    font-size: 28px;
+}
+.footer-ps {
+   color:  rgb(88, 91, 95);
+   font-family: none;
+   padding-bottom: 10px;
+   font-family: 'Open Sans', sans-serif;
+}
+input {
+    margin-bottom: 20px;
+}
+.footer-box3 button  {
+    background-color:rgb(76, 181, 72);
+    padding: 9px 35px;
+    color: rgb(221, 216, 216);
+    border-radius: 2.6px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+.footer-box3 input , textarea {
+    background-color: 	rgb(27, 32, 39);
+    color: rgb(104, 107, 112);
+    font-weight: bold;
+   
+
+}
+.footer-box3 input {
+    padding:5px 220px 10px ;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: none;
+    
+}
+textarea {
+    border-radius: 3px;
+    padding-left: 10px;
+    border: none;
+    padding-top: 5px;
+    
+}
+.footer-end {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    text-align: center;
+    color: rgb(88, 91, 95);
+
+}
+.yy {
+    font-size: 24px;
+    
+}
+.copy {
+    padding-top: 20px;
+}
+.copy2 {
+    color: rgb(126, 130, 135);
+}
+.copy3 {
+    color: rgb(126, 130, 135);
+}
+.tt {
+    color: rgb(88, 91, 95);
+}
+.copys {
+    font-size: large;
+}
+.divbig {
+    margin-top: 6px;
+}
+.yy1 {
+    margin-right: 20px;
+}
+.yy2 {
+    padding-right: 20px;
+}
+    
+.yy3 {
+    margin-left: 20px;
+}
+    
+.yy4 {
+    margin-left: 20px;
+}
+    
+.yy5 {
+    margin-left: 20px;
+}
+.yy:hover {
+    color: rgb(88, 91, 95);
+}
+.footer-box3 button:hover {
+    color: rgb(88, 91, 95);
+}
